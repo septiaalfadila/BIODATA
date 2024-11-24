@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Diri</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f9f9f9;
+        }
+
+        .hero {
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: #fff;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .hero .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .hero .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            border: 4px solid #fff;
+            object-fit: cover;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin: 10px 0;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+        }
+
+        .hero .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #fff;
+            color: #00f2fe;
+            text-decoration: none;
+            font-weight: 600;
+            border-radius: 25px;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .hero .btn:hover {
+            background: #00d4f5;
+            color: #fff;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .section h2 {
+            font-size: 1.8rem;
+            color: #4facfe;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #00f2fe;
+            display: inline-block;
+        }
+
+        .about p, .info ul, .contact p {
+            margin: 10px 0;
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .info ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .info li {
+            margin-bottom: 10px;
+        }
+
+        .info strong {
+            color: #333;
+        }
+
+        .contact .social-links {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+
+        .contact .btn {
+            text-decoration: none;
+            color: #fff;
+            background: #4facfe;
+            padding: 10px 15px;
+            border-radius: 25px;
+            transition: background 0.3s;
+        }
+
+        .contact .btn:hover {
+            background: #00d4f5;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #00f2fe;
+            color: #fff;
+            font-size: 0.9rem;
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <img src="BIO_SEPTI.jpg" alt="Foto Profil" class="profile-pic">
+            <h1>SEPTIA NUR ALFADILA</h1>
+            <p>Mahasiswa Teknik Geomatika</p>
+            <a href="#contact" class="btn">Hubungi Saya</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="section about">
+            <h2>Tentang Saya</h2>
+            <p>
+                Halo, saya Septia Nur Alfadila, seorang mahasiswa yang sedang menempuh pendidikan di bidang Teknik Geomatika. 
+                Saya memiliki passion dalam pemetaan, pelestarian lingkungan, dan pengembangan teknologi berbasis geomatika.
+            </p>
+        </section>
+
+        <section id="info" class="section info">
+            <h2>Informasi Pribadi</h2>
+            <ul>
+                <li><strong>Nama:</strong> Septia Nur Alfadila</li>
+                <li><strong>Tempat, Tanggal Lahir:</strong> Bandar Lampung, 07 September 2004</li>
+                <li><strong>Usia:</strong> 20 Tahun</li>
+                <li><strong>Alamat:</strong> Jalan Bumi Manti 2, Gang Surya Kencana 4, No. 75, Kampung Baru</li>
+                <li><strong>Email:</strong> septia.122230012@student.itera.ac.id</li>
+                <li><strong>No. Telepon:</strong> 081273556933</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section contact">
+            <h2>Kontak Saya</h2>
+            <p>Jangan ragu untuk menghubungi saya melalui:</p>
+            <div class="social-links">
+                <a href="mailto:septia.122230012@student.itera.ac.id" class="btn">Email</a>
+                <a href="https://wa.me/6281273556933" class="btn">WhatsApp</a>
+                <a href="https://instagram.com/septia.alfadila" class="btn">Instagram</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Biodata Diri. Dibuat dengan 💙.</p>
+    </footer>
+</body>
+</html>
